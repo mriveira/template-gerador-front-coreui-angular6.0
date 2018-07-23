@@ -14,7 +14,8 @@
 		</article>
 		<footer class="card-footer  d-flex justify-content-end">
 		  <a href="javascript:history.back()" class="btn btn-secondary">
-				<i class="fa fa-reply"></i> Voltar
+				<i class="fa fa-reply"></i> 
+				{{vm.generalInfo | traduction:'voltar'}}
 			</a>
 		  <button type="submit" class="btn btn-success " [disabled]="vm != null && vm.form.invalid">
 			<i class="icon-check icons"></i>
